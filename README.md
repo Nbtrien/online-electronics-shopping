@@ -20,18 +20,18 @@ The admin also plays an important role for this project as the admin is the one 
 
 ## Screenshots
 ### HomePage
-<img src = "https://github.com/Nbtrien/shop-jsp-servlet/blob/master/images/h.png" alt = ""/>
+<img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/h.png" alt = ""/>
 
 ### Login
-<img src = "https://github.com/Nbtrien/shop-jsp-servlet/blob/master/images/login.png" alt = ""/>
+<img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/login.png" alt = ""/>
 
 ### Products Grid
-<img src = "https://github.com/Nbtrien/shop-jsp-servlet/blob/master/images/cat.png" alt = ""/>
+<img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/cat.png" alt = ""/>
 
 ### Product Detail
-<img src = "https://github.com/Nbtrien/shop-jsp-servlet/blob/master/images/pd.png" alt = ""/>
-<img src = "https://github.com/Nbtrien/shop-jsp-servlet/blob/master/images/rw.png" alt = ""/>
+<img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/pd.png" alt = ""/>
+<img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/rw.png" alt = ""/>
 
 ### Cart and Order Pages
-<img src = "https://github.com/Nbtrien/shop-jsp-servlet/blob/master/images/cart.png" alt = ""/>
-<img src = "https://github.com/Nbtrien/shop-jsp-servlet/blob/master/images/order.png" alt = ""/>
+<img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/cart.png" alt = ""/>
+<img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/order.png" alt = ""/>
