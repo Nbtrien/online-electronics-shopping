@@ -18,6 +18,9 @@ The admin also plays an important role for this project as the admin is the one 
 3. Database:
 - MySql
 
+## Database Preview
+<img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/scheme.png" alt = ""/>
+
 ## Screenshots
 ### HomePage
 <img src = "https://github.com/Nbtrien/online-electronics-shopping/blob/master/images/h.png" alt = ""/>
