@@ -1,0 +1,287 @@
+body {
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #cd1818;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+#header .log {
+	background-color: unset;
+	width: 250px;
+	height: auto;
+	min-height: unset;
+	border: unset;
+}
+
+#header .avatar {
+	padding: 5px 0px;
+	background-color: #FFFFCC;
+	border: 1px solid grey;
+	border-radius: 100%;
+	margin-right: 5px;
+}
+
+#header img.ava {
+	width: 30px;
+	height: 30px;
+}
+
+#header .acc {
+	color: white;
+}
+
+#header .fl {
+	padding: 0 7%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#header .tk {
+	position: relative;
+	display: flex;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 35vw;
+}
+
+#header .iptk {
+	width: 100%;
+	height: 35px;
+	border: none;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	padding-left: 15px;
+}
+
+#header .iptk:focus {
+	border: none;
+	outline: none;
+}
+
+#header .bttk {
+	width: 12%;
+	color: white;
+	background-color: red;
+	border: 0;
+	line-height: 1;
+}
+
+.hd-top-item-container{
+	float: right;
+}
+
+.hd-item-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hd-item-link {
+	color: #fff;
+}
+.hd-item-link:not(:last-child) {
+	margin-right: 25px;
+}
+
+.hd-item-link:hover {
+	color: #aaa;
+}
+
+a.hd-item-link i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+}
+
+a.hd-item-link .hd-item-title {
+	font-size: 16px;
+}
+
+#header .fname {
+	font-size: 20px;
+	padding: 5px 10px;
+	color: black;
+	text-transform: uppercase;
+	background-color: #EEEEEE;
+	border: 1px solid grey;
+	border-radius: 100%;
+	margin-right: 5px;
+}
+
+#header .sname {
+	color: white;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	padding: 10px 10px;
+	margin-left: auto;
+	float: right;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#header .sn_sm {
+	display: none;
+}
+
+@media ( min-width : 576px) and (max-width: 885px) {
+	#header .fl {
+		display: flex;
+	}
+	#header .sname {
+		
+	}
+	#header .brand {
+		flex-grow: 1;
+	}
+	#header .tk {
+		width: 50%;
+		margin: auto;
+		float: none;
+		left: unset;
+	}
+}
+
+@media ( max-width : 575px) {
+	#header .header {
+		height: 100px;
+	}
+	#header .fl {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	#header .brand {
+		margin: auto;
+		order: 1;
+		margin-bottom: 15px;
+	}
+	#header .tk {
+		width: 80%;
+		margin: auto;
+		float: none;
+		left: unset;
+	}
+	#header .sname {
+		margin-left: auto;
+		float: right;
+	}
+	#header .sn_xl {
+		display: none;
+	}
+	#header .sn_sm {
+		display: block;
+	}
+}
+
+@media ( max-width : 376px) {
+	#header .sm-head {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	#header .sn_sm {
+		display: block;
+		margin-left: 0px;
+	}
+}
+
+.navbar-dark {
+	background-color: #252525;;
+}
+
+.hd-tab-container {
+	padding: 15px 0 15px 0;
+}
+
+#header a.m, a.dn {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+
+.hd-tab-item {
+}
+
+#header a.m {
+	display: flex;
+	align-items: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100%;
+	font-size: 14px;
+	line-height: 14px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#header a.m img {
+	width: 20px;
+	margin-right: 5px;
+}
+
+#header a.m:hover {
+	color: #aaa;
+}
+
+#header a.m:hover img {
+	opacity: 0.5;
+}
+
+#header a.dn {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.hd-nav-wrapper {
+	padding: 0 7%;
+}
+
+#header ul {
+	width: 100%;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+#header .n-n {
+	color: white;
+}
+
+#header hr {
+	color: white;
+}
+
+@media ( max-width : 576px) {
+	#header .n-n {
+		display: none;
+	}
+}
+
+#header a:hover {
+	text-decoration: none;
+}
+
+#header a.dn:hover, a.m:hover, .fas:hover {
+	color: #FFFF00;
+}
+
+#header a.m:hover>i {
+	color: #C0FF3E;
+}

@@ -1,0 +1,85 @@
+#bill table, th, td 
+{
+  border: 1px solid black;
+  background-color: white;
+}
+#bill body
+{
+  background-color: #EEEEEE ;
+}
+#bill th,td
+{
+  text-transform: capitalize;
+}
+#bill img
+{
+  width: 150px;
+  height: auto;
+}
+#bill span.ds
+{
+  position: relative;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+#bill a:hover
+{
+  text-decoration: none;
+}
+#bill .bg
+{
+  padding-bottom: 55px;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.35);
+}
+#bill .head
+{
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom: 1px solid grey;
+  background-color: #FAF0E6;
+  padding: 10px 10px;
+}
+#bill .fom
+{
+  position: relative;
+  padding: 10px 25px;
+}
+@media(max-width: 576px)
+{
+  #bill th,td
+  {
+    font-size: 12px;
+  }
+  #bill span.ds
+  {
+    font-size: 20px;
+  }
+  #bill .bg,.fom
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #bill .container
+  {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+#bill img
+{
+  width: 150px;
+  height: auto;
+}
+#bill span.p
+{
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+body 
+{
+  position: relative;
+  overflow-x: hidden;
+  background-color: #EEEEEE;
+  font-size: 16px;
+  padding: 0px 0px;
+}
+body,
+html { height: 100%;    font-family: Times New Roman;}
+.nav .open > a, 
+.nav .open > a:hover, 
+.nav .open > a:focus {background-color: transparent;}
+a:hover
+{
+  text-decoration: none;
+}
+/*Style Header*/
+#header
+{
+  background-color: #2F4F4F;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 10;
+  margin-top: 0px;
+}
+#header .fl
+{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+#header .brand
+{
+  margin-bottom: auto;
+  margin-top: auto;
+}
+#header img.logo
+{
+  background-color: unset; 
+  width: 250px;
+  height: auto;
+  min-height: unset;
+  border: unset;
+}  
+#header .fname
+{
+  font-size: 20px;
+  padding: 5px 10px;
+  color: black;
+  text-transform: uppercase;
+  background-color: #EEEEEE;
+  border: 1px solid grey;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+#header .sname
+{
+  color: white;
+  white-space: nowrap; 
+  overflow: hidden;
+  position: relative;
+  padding: 10px 10px;
+  margin-left: auto;
+  float: right;
+}
+@media(max-width: 595px)
+{
+  #header .full_name
+  {
+    display: none;
+  }
+}
+#header a
+{
+  margin: 10px 10px;
+  color: white;
+  text-decoration: none;
+}
+#header a:hover
+{
+  color: yellow;
+  text-decoration: none;
+}
+@media(max-width: 495px)
+{
+  #header img.logo
+  {
+    width: 40vw;
+    height: auto;
+  }  
+  #header .sname
+  {
+    padding: 5px 5px;
+    margin: auto;
+    margin-top: auto;
+  }
+  #header .fname
+  {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  #header a
+  {
+    margin: 0px 0px;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/*Page Style*/
+#page-content
+{
+  min-height: 1080px;
+  padding: 0% 10%;
+  width: auto;
+  margin-bottom: 50px;
+}
+
+.footer
+{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #444444;
+  color: white;
+  text-align: center;
+}
+.copyright
+{
+  padding-top: 6px;
+  font-size: 0.95em;
+  text-align: center;
+}
